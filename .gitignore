@@ -1,0 +1,137 @@
+# =========================
+# OS / System files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Python bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Python packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Dependency managers
+# =========================
+# uv
+.uv/
+uv-cache/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm-build/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Logs & runtime files
+# =========================
+*.log
+logs/
+*.out
+*.err
+
+# =========================
+# Testing / coverage
+# =========================
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# =========================
+# Type checkers
+# =========================
+.mypy_cache/
+.pyre/
+.pytype/
+
+# =========================
+# Linting
+# =========================
+.ruff_cache/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Data files (optional — uncomment if students download datasets)
+# =========================
+# data/
+# datasets/
+# *.csv
+# *.tsv
+# *.jsonl
+# *.parquet
+
+# =========================
+# Model checkpoints (important for LLM workshop)
+# =========================
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# =========================
+# Misc
+# =========================
+*.sqlite3
+*.db
+.cache/
+
