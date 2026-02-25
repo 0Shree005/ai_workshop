@@ -51,12 +51,12 @@ Write-Host ""
 Write-Host "Setting up project..."
 
 if (!(Test-Path "pyproject.toml")) {
-    uv init --python 3.11 .
+    uv init --python 3.14 .
 }
 
 if (!(Test-Path "uv.lock")) {
     Write-Host "Installing dependencies..."
-    python -m uv add notebook ipykernel matplotlib graphviz numpy torch
+    python -m uv add notebook ipykernel matplotlib graphviz numpy
 }
 
 Write-Host "Creating folders..."
