@@ -56,7 +56,7 @@ if (!(Test-Path "pyproject.toml")) {
 
 if (!(Test-Path "uv.lock")) {
     Write-Host "Installing dependencies..."
-    python -m uv add notebook ipykernel matplotlib graphviz numpy
+    python -m uv add notebook ipykernel matplotlib graphviz numpy torch
 }
 
 Write-Host "Creating folders..."
