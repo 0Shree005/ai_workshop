@@ -71,5 +71,5 @@ if ! ./linux/verify.sh; then
 fi
 
 echo "✅ Environment ready!"
-echo "Run: code ."
-code .
+echo "Run: jupyter notebook"
+jupyter notebook
