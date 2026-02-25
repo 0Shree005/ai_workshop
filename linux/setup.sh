@@ -3,11 +3,11 @@ set -e
 
 echo "🚀 Setting up workshop environment..."
 
-[ -f pyproject.toml ] || uv init --python 3.11 .
+[ -f pyproject.toml ] || uv init --python 3.14 .
 
 if [ ! -f uv.lock ]; then
     echo "📦 Installing dependencies..."
-    uv add notebook ipykernel matplotlib graphviz numpy torch
+    uv add notebook ipykernel matplotlib graphviz numpy
 fi
 
 echo "📂 Creating folders..."
