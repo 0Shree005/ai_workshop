@@ -14,6 +14,13 @@ day/
 
 
 # =========================
+# project files
+# =========================
+uv.lock
+.python-version
+pyproject.toml
+
+# =========================
 # Python bytecode
 # =========================
 __pycache__/
