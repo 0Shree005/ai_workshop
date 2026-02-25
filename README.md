@@ -1,6 +1,3 @@
-Got it — here’s a **cleaned, correct, Fedora + Windows only** README you can directly paste into your repo.
-
----
 
 # 🚀 AI Workshop — Build a Transformer From Scratch
 
@@ -247,13 +244,3 @@ By the end, you’ll understand:
 * what a transformer block really does internally
 
 Not surface-level theory — actual implementation understanding.
-
----
-
-If you want, I can also generate:
-
-* a **student-friendly simplified README**
-* a **TA/instructor version**
-* or a **super minimal quickstart version**
-
-Just tell me which audience this repo is for.
